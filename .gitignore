@@ -1,1 +1,40 @@
+# macOS
 .DS_Store
+._*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# LeRobot library clone — NOT part of this repo
+lerobot/
+
+# Checkpoints and model weights — too big, store on server
+checkpoints/
+outputs/
+*.safetensors
+*.ckpt
+*.pth
+model.safetensors
+
+# Datasets — HF cache, raw recordings
+datasets/
+*.parquet
+*.mp4
+!figs/arm-pickplace-demo.mp4
+
+# Logs that don't belong in the public repo
+*.log
+.ipynb_checkpoints/
+
+# Environment / local config
+.env
+.envrc
+
+# IDE
+.vscode/
+.idea/

@@ -1,7 +1,7 @@
 # Handoff Addendum — August 20, 2026 (append to prior handoff-summary.md)
 
 ## Infrastructure updates
-- **Server IP changed:** now `192.168.2.42` (was `192.168.11.153`) — update Samba reconnect instructions accordingly
+- **Server IP changed:** now `<HOME_SERVER_IP>` (was `<HOME_SERVER_IP>`) — update Samba reconnect instructions accordingly
 - **Archive completed:** superseded datasets (`v15-sideapproach`, `v16-x10boost`, `test-pickplace`) and checkpoints (`v10_balanced`, `v12_boosted`) moved to `storage1/training/lerobot/` on the server — confirmed 10GB+10GB, verified before local deletion
 - **Currently active locally:** datasets `v14-o1fixed`, `v17-x10fixed`; checkpoints `v14_o1fixed`, `v15_sideapproach`, `v17_x10fixed`
 

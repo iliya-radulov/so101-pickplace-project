@@ -1,0 +1,11 @@
+--- a/src/lerobot/robots/so_follower/so_follower.py
++++ b/src/lerobot/robots/so_follower/so_follower.py
+@@ -159,7 +159,7 @@
+ 
+     def configure(self) -> None:
+         with self.bus.torque_disabled():
+-            self.bus.configure_motors()
++            self.bus.configure_motors(maximum_acceleration=99, acceleration=99)
+             for motor in self.bus.motors:
+                 self.bus.write("Operating_Mode", motor, OperatingMode.POSITION.value)
+                 self.bus.write("P_Coefficient", motor, self.config.position_p_coefficient)

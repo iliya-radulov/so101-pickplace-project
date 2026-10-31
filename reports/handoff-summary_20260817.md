@@ -1,7 +1,7 @@
 # SO-101 Project — Handoff Summary (for new chat)
 
 **Full project history:** github.com/iliya-radulov/so101-pickplace-project
-**Server:** Ubuntu home server at 192.168.11.153, Samba shares `storage1`/`storage2`
+**Server:** Ubuntu home server at <HOME_SERVER_IP>, Samba shares `storage1`/`storage2`
 
 ---
 
