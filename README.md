@@ -31,5 +31,5 @@ SO-101 leader/follower arm pair, Feetech STS3215 servos, dual USB cameras (works
 
 ## Related
 
-- [Public portfolio write-up](https://iliya-radulov.github.io/projects/active/) (curated, image-illustrated version)
+- [Public portfolio write-up]([https://iliya-radulov.github.io/projects/active/](https://iliya-radulov.github.io/projects/active/active.html)) (curated, image-illustrated version)
 - Training data and model checkpoints are archived separately (not in this repo — large binary files, kept on local storage)
